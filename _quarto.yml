@@ -2,8 +2,8 @@ project:
   type: website
   output-dir: docs
 
-website:
-  navbar:
+website: 
+  navbar: 
     left:
       - href: index.qmd
         text: Home
@@ -13,7 +13,6 @@ website:
         text: Projects
       - href: Experience.qmd
         text: Experience
-
 
 format:
   html:
