@@ -1,0 +1,88 @@
+---
+title: "Projects"
+format: 
+    html:
+        code-fold: true
+        toc: false
+        grid:
+            sidebar-width: 50px
+            margin-width: 50px
+            body-width: 1000px
+jupyter: python3
+---
+
+<!-- 4 bit Micro-Processor Emulator  
+Burgular Alarm  
+Music Playlist Creator  
+Platformer Video Game   -->
+
+<br>
+
+```{=html}
+<div class = "projects-content">
+    <div class = "projects-row">
+        <div class = "projects-itembox">
+            <h6><u><b>Micro-Processor Emulator</b></u></h6>
+            <p>Created and Emulated a fully functioning 4-bit Micro-Processor through the logisim-Evolution program. Includes a fully functioning register, with read, write, and enabled options are included alongside an ALU, allowing for binary or hexadecimal math. The emulator also connects to windows ASCII, allowing for programable text output.</p>  
+
+            <div  class = "projects-skillbox">Logism Evolution</div>
+            <div  class = "projects-skillbox">Digital Logic Design</div>
+            <div  class = "projects-skillbox">Computer Code</div>
+            <div  class = "projects-skillbox">Finite State Machines</div>
+            
+        </div>
+        <div class = "projects-itembox">
+            <h6><u><b>RideShare App</b></u></h6>
+            <p> A team project where we saw a need for students who were leaving Rexburg who needed a ride, or were willing to offer one. The app functions as a job board, where posts are put on display and can be sorted by date leaving or posted, price for ride, and location. Account information created and saved through users google account.</p>
+
+            <div  class = "projects-skillbox">Flutter</div>
+            <div  class = "projects-skillbox">Dart</div>
+            <div  class = "projects-skillbox">Firebase</div>
+            <div  class = "projects-skillbox">Android Studio</div>
+            
+        </div>
+        <div class = "projects-itembox">
+            <h6><u><b>Burgular Alarm</b></u></h6>
+            <p>Programmed in C language and loaded onto a Nucleo board, the alarm triggers only when it is armed and the magnetic switches (simulating a door or window opening) are pulled apart. The alarm is turned off when a disarm button is pressed. Another version that requires a password to be entered to arm or dissarm is currently underway.</p>
+
+            <div  class = "projects-skillbox">Embedded Systems Programming</div>
+            <div  class = "projects-skillbox">C Programming</div>
+            <div  class = "projects-skillbox">Digital I/O Conttrol</div>     
+        </div> 
+    </div>
+    <div class = "projects-row">
+        <div class = "projects-itembox">
+            <h6><u><b>Music Playlist Creator</b></u></h6>
+            <p>A web app that allows the user to use URLs from YouTube and Spotify to create their own playlist using songs from both sites. Users can create, edit, and delete multiple playlists.</p>
+
+            <div  class = "projects-skillbox">React</div>
+            <div  class = "projects-skillbox">Vite</div>
+            <div  class = "projects-skillbox">JavaScript</div>
+            <div  class = "projects-skillbox">Html</div>
+        </div>
+        <div class = "projects-itembox">
+            <h6><u><b>Sound System Microprocessor Design</b></u></h6>
+            <p>A sound system where the microchips are digitally designed for the Treble, Mixer, and Bass, then fabricated and shipped back to be soldered and wired together.</p>
+        <div  class = "projects-skillbox">Altium Design</div>
+        <div  class = "projects-skillbox">Microprocessor Design</div>
+        <div  class = "projects-skillbox">JLCPCB</div>
+        <div  class = "projects-skillbox">Soldering</div>
+
+        </div>
+        <div class = "projects-itembox">
+            <h6><u><b>Deal Finder</b></u></h6>
+            <p>A web app that allows a user to compare prices of products from Amazon, eBay, and Walmart. When an item entered in the search bar, the program goes through Amazon, Walmart, and eBay to find and display said item on the screen, separated into three columns depending on what site it was found on. A filter is added onto the project, allowing the user to sort by price, condition, or date posted.</p>
+        <div  class = "projects-skillbox">Flask</div>
+        <div  class = "projects-skillbox">Python</div>
+        <div  class = "projects-skillbox">HTML</div>
+        <div  class = "projects-skillbox">Selenium</div>
+        </div>
+    </div>
+</div>
+```
+
+<br><br><br>
+
+::: {.text-center}
+##### [Home](index.qmd)  |  [Experience](Experience.qmd)  |  [Blog](about.qmd)
+:::

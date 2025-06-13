@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Blog
+      - href: Projects.qmd
+        text: Projects
+      - href: Experience.qmd
+        text: Experience
+
+
+format:
+  html:
+    theme:
+      - default
+      - brand
+    css: styles.css
+    toc: true

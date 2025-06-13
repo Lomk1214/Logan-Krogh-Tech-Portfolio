@@ -1,0 +1,56 @@
+---
+title: "Experience"
+format: 
+    html:
+        code-fold: true
+jupyter: python3
+---
+<br>
+
+### Mac Lab Technician
+##### BYU-Idaho - April 2025 - Present  
+Support university projects and assisted students with technology and equipment needs.  
+Responsibilities:  <div style = "margin-left: 20px">
+  - Perform maintainence on 3d printers and print requests  
+  - Assit patrons with questions relted to 3D printing, Adobe software, and other applications  
+  - Rent out Mac Lab equipment and ensure rent return  
+  - Contribute to ongoing projects for the University and the Mac Lab  
+</div>
+
+Skills:  
+```{=html}
+<div class = "experience-stack">
+    <div class = "experience-item">3d Printing</div>
+    <div class = "experience-item">3d Printer Maintenance</div>
+    <div class = "experience-item">Prusa Slicer</div>
+    <div class = "experience-item">Adobe Products</div>
+    <div class = "experience-item">Student Teaching</div>
+</div>
+```
+
+<br>
+
+### Maintenance Worker - McDonalds
+##### May 2024 - September 2024
+Maintained store equipment and building to ensure smooth daily operations. 
+Responsibilities:  <div style = "margin-left: 20px">
+  - Cleaned, maintained, and troubleshooted machinery  
+  - Performed interior and exterior building maintenance; filtered fryers  
+  - Managed inventory checks, cleaned dishes, and assisted with store closing duties  
+</div>
+
+Skills:  
+```{=html}
+<div class = "experience-stack">
+    <div class = "experience-item">Machine Maintenance</div>
+    <div class = "experience-item">Machine Troubleshooting</div>
+    <div class = "experience-item">Inspect and Maintain building</div>
+    <div class = "experience-item">Inventory Check</div>
+</div>
+```
+<br><br><br>
+
+::: {.text-center}
+##### [Home](index.qmd)  |  [Projects](Projects.qmd)  |  [Blog](about.qmd)
+:::
+

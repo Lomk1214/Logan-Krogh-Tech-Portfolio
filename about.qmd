@@ -1,0 +1,37 @@
+---
+title: "Blog"
+format: 
+    html:
+        code-fold: true
+        toc: false
+---
+```{=html}
+<div class = "about-stack">
+    <div class = "about-post">
+        <u><h6>June, 12, 2025</h6></u>
+        <p style = "text-indent:30px;">Since working at the Mac Lab, I have significantly refined my skills with the 3D printer, specifically with reading and understanding G-code. G-code is the file that you get after you slice a 3D model. It is split into many individual layers that are stacked on top of each other to create the model that it was given. This code tells the printer where and how it should print out filament to get the desired design. What I've learned most about it, however, is that it can easily hide print-destroying errors. The two types I have run into the most are 1. Not starting on the build plate, and 2. Faulty interior of the model.</p>
+        <details>
+            <summary style ="cursor: pointer; font-weight:bold; padding: 5px 0; justify-content: right;">
+                Problem 1
+            </summary>
+            <p style = "text-indent:30px;">When you slice a model and convert it to G-code, it should be generated in such a way that the printer starts from the bottom, prints the beginnings of the model and any required supports, and then gradually builds up to the top. However, due to the construction of the given model, the print may not actually be touching the build plate. This prevents it from forming a solid base, causing the printer to trail filament behind it in a bunched-up ball.</p>
+            
+            <p style = "text-indent:30px;">The easiest way to fix this is to check the bottom of the model in the preview tab and see if the part of the model that should touch the build plate is colored to match the "solid infill" indicator. If not, you can return to the 3D editor view and use the "Place on Face" tool. This tells the slicer which part of the model should be anchored to the build plate. When you preview the model again, you should see the color of the section touching the plate change, confirming that it has been set correctly.</p>
+        </details>
+        <details>
+            <summary style ="cursor: pointer; font-weight:bold; padding: 5px 0; justify-content: right;">
+                Problem 2
+            </summary>
+            <p style = "text-indent:30px;">The second problem is most often caused by issues in the interior of the model. When we see a 3D model, we can only see the outside, not the inside. The slicer, however, can. Like an X-ray, the slicer can see the inside mesh and will model the G-code accordingly. For example, a 3D model may look solid, but it can have an empty sphere on the inside. This doesn't always lead to failure, but sometimes the model will have gaps in between layers only on the interior, causing the printer to again print in mid-air. You can generally find these problems if you use the Layer Slicer and slowly look through the layers till you find the empty layer.</p>
+            
+            <p style = "text-indent:30px;">The solution to this problem is more complicated than the first, requiring that you take the model and print it into parts, edit it in another program, or find another model altogether.</p>
+        </details>
+        </div>
+</div>
+```
+
+<br><br>
+
+::: {.text-center}
+##### [Home](index.qmd)  |  [Experience](Experience.qmd)  |  [Projects](Projects.qmd)
+:::

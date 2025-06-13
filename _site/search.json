@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Logan Krogh",
+    "section": "",
+    "text": "I am a Computer Engineering student at BYU–Idaho who enjoys creating software applications and working with hardware. During my time at school, I have developed crucial skills in various areas, ranging from software (C#, Python, JavaScript, etc.) to hardware design and construction (Altium Designer, Logisim, soldering, etc.). I am often tasked with projects that require me to learn new programming languages and IDEs that I have never used before (such as JavaScript, Flutter, and HTML) in a short amount of time. Through these experiences, I have gained the ability to quickly learn and adapt to new technologies.\n\n\n\n\n\n\n\n    \n        \n        Python\n    \n    \n        \n        C\n    \n    \n        \n        C++\n    \n    \n        \n        C#\n    \n    \n        \n        Altium Designer\n    \n    \n        \n        AMD Vivado\n    \n    \n        \n        Arduino"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Blog",
+    "section": "",
+    "text": "June, 12, 2025\n        Since working at the Mac Lab, I have significantly refined my skills with the 3D printer, specifically with reading and understanding G-code. G-code is the file that you get after you slice a 3D model. It is split into many individual layers that are stacked on top of each other to create the model that it was given. This code tells the printer where and how it should print out filament to get the desired design. What I've learned most about it, however, is that it can easily hide print-destroying errors. The two types I have run into the most are 1. Not starting on the build plate, and 2. Faulty interior of the model.\n        \n            \n                Problem 1\n            \n            When you slice a model and convert it to G-code, it should be generated in such a way that the printer starts from the bottom, prints the beginnings of the model and any required supports, and then gradually builds up to the top. However, due to the construction of the given model, the print may not actually be touching the build plate. This prevents it from forming a solid base, causing the printer to trail filament behind it in a bunched-up ball.\n            \n            The easiest way to fix this is to check the bottom of the model in the preview tab and see if the part of the model that should touch the build plate is colored to match the \"solid infill\" indicator. If not, you can return to the 3D editor view and use the \"Place on Face\" tool. This tells the slicer which part of the model should be anchored to the build plate. When you preview the model again, you should see the color of the section touching the plate change, confirming that it has been set correctly.\n        \n        \n            \n                Problem 2\n            \n            The second problem is most often caused by issues in the interior of the model. When we see a 3D model, we can only see the outside, not the inside. The slicer, however, can. Like an X-ray, the slicer can see the inside mesh and will model the G-code accordingly. For example, a 3D model may look solid, but it can have an empty sphere on the inside. This doesn't always lead to failure, but sometimes the model will have gaps in between layers only on the interior, causing the printer to again print in mid-air. You can generally find these problems if you use the Layer Slicer and slowly look through the layers till you find the empty layer.\n            \n            The solution to this problem is more complicated than the first, requiring that you take the model and print it into parts, edit it in another program, or find another model altogether.\n        \n        \n\n\n\nHome | Experience | Projects"
+  },
+  {
+    "objectID": "index.html#computer-engineer",
+    "href": "index.html#computer-engineer",
+    "title": "Logan Krogh",
+    "section": "",
+    "text": "I am a Computer Engineering student at BYU-Idaho who enjoys making both software applications and working with hardware. From my time at school I have developed crucial skills in varios areas, ranging from software (C#, Python, Javascript, ect.) to hardware design and construction (Altium Designer, logism, sodering, ect.). I am often tasked with projects that require me to learn new programming languages and IDE’s that I have never used before (such as Javascript, flutter, and html) in very little time. From this I have gained the skills needed to learn and adapt quickly to what is required.\n\n\n\n\n\n\n\n    \n        \n        Python\n    \n    \n        \n        C\n    \n    \n        \n        C++\n    \n    \n        \n        C#\n    \n    \n        \n        Altium Designer\n    \n    \n        \n        AMD Vivado\n    \n    \n        \n        Arduino"
+  },
+  {
+    "objectID": "index.html#current-byui-student",
+    "href": "index.html#current-byui-student",
+    "title": "Logan Krogh",
+    "section": "Current BYUI Student",
+    "text": "Current BYUI Student\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Micro-Processor Emulator\n            Created and Emulated a fully functioning 4-bit Micro-Processor through the logisim-Evolution program. Includes a fully functioning register, with read, write, and enabled options are included alongside an ALU, allowing for binary or hexadecimal math. The emulator also connects to windows ASCII, allowing for programable text output.  \n\n            Logism Evolution\n            Digital Logic Design\n            Computer Code\n            Finite State Machines\n            \n        \n        \n            RideShare App\n             A team project where we saw a need for students who were leaving Rexburg who needed a ride, or were willing to offer one. The app functions as a job board, where posts are put on display and can be sorted by date leaving or posted, price for ride, and location. Account information created and saved through users google account.\n\n            Flutter\n            Dart\n            Firebase\n            Android Studio\n            \n        \n        \n            Burgular Alarm\n            Programmed in C language and loaded onto a Nucleo board, the alarm triggers only when it is armed and the magnetic switches (simulating a door or window opening) are pulled apart. The alarm is turned off when a disarm button is pressed. Another version that requires a password to be entered to arm or dissarm is currently underway.\n\n            Embedded Systems Programming\n            C Programming\n            Digital I/O Conttrol     \n         \n    \n    \n        \n            Music Playlist Creator\n            A web app that allows the user to use URLs from YouTube and Spotify to create their own playlist using songs from both sites. Users can create, edit, and delete multiple playlists.\n\n            React\n            Vite\n            JavaScript\n            Html\n        \n        \n            Sound System Microprocessor Design\n            A sound system where the microchips are digitally designed for the Treble, Mixer, and Bass, then fabricated and shipped back to be soldered and wired together.\n        Altium Design\n        Microprocessor Design\n        JLCPCB\n        Soldering\n\n        \n        \n            Deal Finder\n            A web app that allows a user to compare prices of products from Amazon, eBay, and Walmart. When an item entered in the search bar, the program goes through Amazon, Walmart, and eBay to find and display said item on the screen, separated into three columns depending on what site it was found on. A filter is added onto the project, allowing the user to sort by price, condition, or date posted.\n        Flask\n        Python\n        HTML\n        Selenium\n        \n    \n\n\n\nHome | Experience | Blog"
+  },
+  {
+    "objectID": "Experience.html",
+    "href": "Experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Mac Lab Technician\n\nBYU-Idaho - April 2025 - Present\nSupport university projects and assisted students with technology and equipment needs.\nResponsibilities:\n\n\nPerform maintainence on 3d printers and print requests\n\nAssit patrons with questions relted to 3D printing, Adobe software, and other applications\n\nRent out Mac Lab equipment and ensure rent return\n\nContribute to ongoing projects for the University and the Mac Lab\n\n\n\nSkills:\n\n    3d Printing\n    3d Printer Maintenance\n    Prusa Slicer\n    Adobe Products\n    Student Teaching\n\n\n\n\n\nMaintenance Worker - McDonalds\n\nMay 2024 - September 2024\nMaintained store equipment and building to ensure smooth daily operations. Responsibilities:\n\n\nCleaned, maintained, and troubleshooted machinery\n\nPerformed interior and exterior building maintenance; filtered fryers\n\nManaged inventory checks, cleaned dishes, and assisted with store closing duties\n\n\n\nSkills:\n\n    Machine Maintenance\n    Machine Troubleshooting\n    Inspect and Maintain building\n    Inventory Check\n\n\n\n\nHome | Projects | Blog"
+  },
+  {
+    "objectID": "Projects.html#mcdonalds",
+    "href": "Projects.html#mcdonalds",
+    "title": "Projects",
+    "section": "McDonalds",
+    "text": "McDonalds\n\nHome | Experience"
+  },
+  {
+    "objectID": "index.html#current-student-at-byui",
+    "href": "index.html#current-student-at-byui",
+    "title": "Logan Krogh",
+    "section": "Current Student at BYUI ",
+    "text": "Current Student at BYUI \n\nBio\nI am a Computer Engineering student at BYU-Idaho who enjoys making both software applications and working with hardware. From my time at school I have developed crucial skills in varios areas, ranging from software (C#, Python, Javascript, ect.) to hardware design and construction (Altium Designer, logism, sodering, ect.). I am often tasked with projects that require me to learn new programming languages and IDE’s that I have never used before (such as Javascript, flutter, and html) in very little time. From this I have gained the skills needed to learn and adapt quickly to what is required.\n\n\n\nMy Tech Stack\n\n\n\n    \n        \n        Python\n    \n    \n        \n        C\n    \n    \n        \n        C++\n    \n    \n        \n        C#\n    \n    \n        \n        Altium Designer\n    \n    \n        \n        AMD Vivado\n    \n    \n        \n        Arduino\n    \n\n\n\nProjects | Experience"
+  },
+  {
+    "objectID": "index.html#computer-engineer-current-student-at-byui",
+    "href": "index.html#computer-engineer-current-student-at-byui",
+    "title": "Logan Krogh",
+    "section": "",
+    "text": "I am a Computer Engineering student at BYU-Idaho who enjoys making both software applications and working with hardware. From my time at school I have developed crucial skills in varios areas, ranging from software (C#, Python, Javascript, ect.) to hardware design and construction (Altium Designer, logism, sodering, ect.). I am often tasked with projects that require me to learn new programming languages and IDE’s that I have never used before (such as Javascript, flutter, and html) in very little time. From this I have gained the skills needed to learn and adapt quickly to what is required.\n\n\n\n\n\n\n\n    \n        \n        Python\n    \n    \n        \n        C\n    \n    \n        \n        C++\n    \n    \n        \n        C#\n    \n    \n        \n        Altium Designer\n    \n    \n        \n        AMD Vivado\n    \n    \n        \n        Arduino"
+  },
+  {
+    "objectID": "index.html#computer-engineer---current-student-at-byui",
+    "href": "index.html#computer-engineer---current-student-at-byui",
+    "title": "Logan Krogh",
+    "section": "",
+    "text": "I am a Computer Engineering student at BYU–Idaho who enjoys creating software applications and working with hardware. During my time at school, I have developed crucial skills in various areas, ranging from software (C#, Python, JavaScript, etc.) to hardware design and construction (Altium Designer, Logisim, soldering, etc.). I am often tasked with projects that require me to learn new programming languages and IDEs that I have never used before (such as JavaScript, Flutter, and HTML) in a short amount of time. Through these experiences, I have gained the ability to quickly learn and adapt to new technologies.\n\n\n\n\n\n\n\n    \n        \n        Python\n    \n    \n        \n        C\n    \n    \n        \n        C++\n    \n    \n        \n        C#\n    \n    \n        \n        Altium Designer\n    \n    \n        \n        AMD Vivado\n    \n    \n        \n        Arduino"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "hash": "a9b6a59a0b6d2be0571f97e4248b1386",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Logan Krogh\nformat:\n  html:\n    code-fold: true\n    toc: false\n---\n\n## Computer Engineer - <span style = \"font-size: 1.1rem;\"> Current Student at BYUI</span>\n\n<br>\n\n##### <u>Bio</u>\nI am a Computer Engineering student at BYU–Idaho who enjoys creating software applications and working with hardware. During my time at school, I have developed crucial skills in various areas, ranging from software (C#, Python, JavaScript, etc.) to hardware design and construction (Altium Designer, Logisim, soldering, etc.). I am often tasked with projects that require me to learn new programming languages and IDEs that I have never used before (such as JavaScript, Flutter, and HTML) in a short amount of time. Through these experiences, I have gained the ability to quickly learn and adapt to new technologies.\n\n<br>\n\n::: {.text-center}\n### <u>My Tech Stack</u>\n:::\n\n<!--Creates the tech stack boxes with logo and text inside-->\n\n```{=html}\n<div class = \"tech-stack\">\n    <div class=\"tech-item\">\n        <img src=\"./images/python-logo.png\" alt =\"Python\" />\n        <p>Python</p>\n    </div>\n    <div class = \"tech-item\">\n        <img src = \"./images/c-logo.png\" alt = \"C\" />\n        <p>C</p>\n    </div>\n    <div class = \"tech-item\">\n        <img src = \"./images/c++-logo.png\" alt =\"C++\" />\n        <p>C++</p>\n    </div>\n    <div class = \"tech-item\">\n        <img src = \"./images/csharp-logo.png\" alt = \"C#\" />\n        <p>C#</p>\n    </div>\n    <div class = \"tech-item\">\n        <img src = \"./images/altium-designer-logo.png\" alt = \"Altium\" />\n        <p>Altium Designer</p>\n    </div>\n    <div class = \"tech-item\">\n        <img src = \"./images/AMD-logo.png\" alt = \"AMD\" />\n        <p>AMD Vivado</p>\n    </div>\n    <div class = \"tech-item\">\n        <img src = \"./images/arduino-logo.png\" alt = \"arduino\" />\n        <p>Arduino</p>\n    </div>\n</div>\n```\n<br><br><br>\n\n::: {.text-center}\n##### [Projects](Projects.qmd)  |  [Experience](Experience.qmd)  |  [Blog](about.qmd)\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

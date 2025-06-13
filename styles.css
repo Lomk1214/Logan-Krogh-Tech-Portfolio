@@ -1,0 +1,177 @@
+/* Overall theme of portfolio */
+.navbar {
+    background-color: #005e5d;
+    color: white;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* Individual pages and parts */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.tech-item {
+    width: 120px;
+    height: 120px;
+    background: #cde3e2
+
+;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    gap: 0.5rem;
+}
+
+.tech-item img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.tech-item p {
+    margin: 0;
+    font-size: .9rem;
+}
+
+/* --- */
+
+.experience-tools {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+
+}
+
+.experience-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: left;
+    padding-top: 1rem;
+}
+.experience-item {
+    padding: 10px 10px 15px 10px;
+    background: #fef3c6;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    color: rgb(0, 0, 0);
+}
+
+/* ---- */
+
+.projects-row {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 20px;;
+}
+
+.projects-itembox {
+    padding: 10px;
+    flex: 1;
+    min-height: 250px;
+    height: auto;
+    overflow: visible;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    line-height: 1.5;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.projects-itembox h6, .projects-itembox p, .projects-itembox li {
+    margin: 0.75rem 0.5rem;
+    line-height: 1.1;
+    font-size: .9rem;
+    color: rgb(0, 0, 0);
+}
+.projects-itembox p {
+    margin: 0.75rem 0.5rem;
+    line-height: 1.1;
+    font-size: .7rem;
+    color: rgb(0, 0, 0);
+}
+
+.projects-itembox text {
+    margin: 0.75rem 0.5rem;
+    line-height: 1.1;
+    font-size: .9rem;
+    color: rgb(250, 92, 92);
+}
+
+.projects-skillbox{
+    padding: 5px 5px;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    background: #fef3c6;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    font-size: .65rem;
+    color: black;
+}
+
+/*  */
+
+.about-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: left;
+    padding-top: 1rem;
+}
+
+.about-post {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    color: black;
+}
+
+details summary {
+    font-size: 1rem;
+    color: #0056b3;
+    transition: 0.2s ease;
+}
+
+details[open] summary {
+    color: #003d80;
+}
+
+details p {
+    margin-top: 0.5rem;
+}
