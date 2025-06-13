@@ -21,4 +21,8 @@ format:
       - default
       - brand
     css: styles.css
+<<<<<<< HEAD
     toc: true
+=======
+    toc: true
+>>>>>>> c49035b (restore and re-render site)
