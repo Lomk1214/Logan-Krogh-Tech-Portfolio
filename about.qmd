@@ -33,5 +33,5 @@ format:
 <br><br>
 
 ::: {.text-center}
-##### [Home](index.qmd)  |  [Experience](Experience.qmd)  |  [Projects](Projects.qmd)
+##### [Home](index.qmd)  | [Projects](Projects.qmd)  |  [Experience](Experience.qmd)  
 :::

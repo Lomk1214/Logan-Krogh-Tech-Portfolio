@@ -51,6 +51,6 @@ Skills:
 <br><br><br>
 
 ::: {.text-center}
-##### [Home](index.qmd)  |  [Projects](Projects.qmd)  |  [Blog](about.qmd)
+##### [Home](index.qmd)  |  [Blog](about.qmd)  |  [Projects](Projects.qmd)
 :::
 

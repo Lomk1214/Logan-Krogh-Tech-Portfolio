@@ -84,5 +84,5 @@ Platformer Video Game   -->
 <br><br><br>
 
 ::: {.text-center}
-##### [Home](index.qmd)  |  [Experience](Experience.qmd)  |  [Blog](about.qmd)
+##### [Home](index.qmd)  |  [Blog](about.qmd)  |  [Experience](Experience.qmd)
 :::
