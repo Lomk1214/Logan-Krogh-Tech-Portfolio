@@ -1,4 +1,9 @@
 /* Overall theme of portfolio */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     background-color: #005e5d;
     color: white;
@@ -9,6 +14,71 @@ body {
 }
 
 /* Individual pages and parts */
+
+.index-page main,
+.index-page .page-columns,
+.index-page .content {
+    margin-top:0 !important;
+    padding-top: 0 !important;
+}
+
+.index-header {
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+    padding-bottom: 1rem;
+    height: auto;
+    background: linear-gradient(135deg, #005e5d, #cde3e2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.index-header p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem 0 0 0; /* top right bottom left */
+    line-height: 1.2;
+}
+.index-header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin: 1rem 0 1rem 0; /* top right bottom left */
+    padding-top: 5rem;
+    color: white;
+    line-height: 1.2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.nav-links a {
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #d7fefe;
+    scale: 1.09;
+}
+
+.index-content {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
@@ -20,9 +90,7 @@ body {
 .tech-item {
     width: 120px;
     height: 120px;
-    background: #cde3e2
-
-;
+    background: #cde3e2;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     text-align: center;
@@ -33,6 +101,10 @@ body {
     align-items: center;
     transition: transform 0.2s;
     gap: 0.5rem;
+}
+
+.tech-item:hover {
+    transform: scale(1.05);
 }
 
 .tech-item img{
