@@ -8,7 +8,13 @@ format:
 ```{=html}
 <div class = "about-stack">
     <div class = "about-post">
-        <u><h6>June, 12, 2025</h6></u>
+        <u><h6>November 19, 2025</h6></u>
+        <p style = "text-indent:30px;">This last October I had the opportunity to participate in the BYUI's hackathon, held on campus in the STC. This was my first time doing a hackathon and joining it was a last second decision. I went in with very little idea of what I was going to do or who my teammates were going to be. After making a team with another computer engineer and then later being joined by a third, all of whom were also first-time attendees, we got to brainstorming. We eventually decided on creating a smart cane for the visually impaired.</p>
+        <p style = "text-indent:30px;">The idea was that the cane would vibrate when swung too close to an object, so we used 3 HC-SR04 ultrasonic sensors (for the left, right, and front of the cane), and a buzzer and designed a circuit that we connected to an esp32. We then designed an app that connected to the esp32 via Bluetooth. This app allowed the user to adjust the range of the sensor, see live updates of where the closest object is, and had a find my function that caused the cane to beep whereever it was.</p>
+        <p style = "text-indent:30px;">The whole competition was such a unique and fun experience. From finally getting our circuit and code working at 5 am to talking and chatting with other groups about each others projects, the whole event was memorable from the start to the end. While it was definitely an endurance test, I plan on doing it again next fall. </p>      
+        </div>
+    <div class = "about-post">
+        <u><h6>June 12, 2025</h6></u>
         <p style = "text-indent:30px;">Since working at the Mac Lab, I have significantly refined my skills with the 3D printer, specifically with reading and understanding G-code. G-code is the file that you get after you slice a 3D model. It is split into many individual layers that are stacked on top of each other to create the model that it was given. This code tells the printer where and how it should print out filament to get the desired design. What I've learned most about it, however, is that it can easily hide print-destroying errors. The two types I have run into the most are 1. Not starting on the build plate, and 2. Faulty interior of the model.</p>
         <details>
             <summary style ="cursor: pointer; font-weight:bold; padding: 5px 0; justify-content: right;">
