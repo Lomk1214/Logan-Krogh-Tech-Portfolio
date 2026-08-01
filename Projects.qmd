@@ -42,7 +42,7 @@ Platformer Video Game   -->
             
         </div>
         <div class = "projects-itembox">
-            <h6><u><b><a href="https://github.com/gracekazmierski/byuid_rideshare.gitRideShare" target = "_blank">Ride Share App</a></b></u></h6>
+            <h6><u><b><a href="https://github.com/gracekazmierski/byuid_rideshare.git" target = "_blank">Ride Share App</a></b></u></h6>
             <p> A team project where we saw a need for students who were leaving Rexburg who needed a ride, or were willing to offer one. The app functions as a job board, where posts are put on display and can be sorted by date leaving or posted, price for ride, and location. Account information created and saved through users google account.</p>
 
             <div  class = "projects-skillbox">Flutter</div>
