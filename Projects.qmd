@@ -72,7 +72,7 @@ Platformer Video Game   -->
             <div  class = "projects-skillbox">Digital I/O Control</div> 
             </div> 
         <div class = "projects-itembox">
-            <h6><u><b> target = "_blank">Music Playlist Creator</b></u></h6>
+            <h6><u><b>Music Playlist Creator</b></u></h6>
             <p>A web app that allows the user to use URLs from YouTube and Spotify to create their own playlist using songs from both sites. Users can create, edit, and delete multiple playlists.</p>
 
             <div  class = "projects-skillbox">React</div>
